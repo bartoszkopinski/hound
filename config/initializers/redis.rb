@@ -1,2 +1,2 @@
-REDIS = Redis.new(url: ENV['REDISTOGO_URL'])
+REDIS = Redis.new
 Resque.redis = REDIS
